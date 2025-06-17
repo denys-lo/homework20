@@ -4,15 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery - Liverpool F.C.</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
-<body bgcolor="yellow" align="center">
-    <h3><a name="top">My favourite football club is</a></h3>
-    <h1>Liverpool F.C.</h1>
-    <img src="../photos/logo.png" alt="Liverpool F.C. logo" width="200px">
+<body>
+    <div class="header__container">
+        <div class="header_left">
+        <h3><a name="top">My favourite football club is</a></h3>
+        <h1>Liverpool F.C.</h1>
+        <img src="../photos/logo.png" alt="Liverpool F.C. logo" width="200px">
+    </div>
 
-    <hr>
-    <a href="../index.html">Main</a> | <a href="../index.html#history">History</a> | <a href="contact.html">Contact</a> | <a href="gallery.html">Gallery</a>
-    <hr>
+    <div class="header_right">
+        <p><strong>Liverpool Football Club</strong> is a professional football club based in <em>Liverpool, England</em>.<br>The club competes in <strong>the Premier League</strong>, the top tier of English football. <strong>Founded in 1892</strong>, the club joined the Football League the following year and has played its home games at <em>Anfield</em> since its formation.<br><strong>Liverpool</strong> is one of the most valuable and widely supported clubs in the world.</p>
+    </div>
+    </div>
+
+    <div class="menu__container">
+    <a href="../index.html" class="menu">Main</a>
+    <a href="../index.html#history" class="menu">History</a>
+    <a href="contact.html" class="menu">Contact</a>
+    <a href="gallery.html" class="menu">Gallery</a>
+    </div>
     
     <div align="center">
         <table border="1" cellpadding="10" cellspacing="0">
@@ -34,6 +46,8 @@
     </table>
     </div>
 
-    <div><a href="#top">On top of the page</a></div>
+    <div class="top__button_container">
+        <a href="#top" class="top__button">On top of the page</a>
+    </div>
 </body>
 </html>
